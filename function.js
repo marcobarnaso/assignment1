@@ -12,7 +12,7 @@ const calculateDays = (data) => {
         return console.log('Please input a valid date') 
     }
 
-    console.log(chalk.blue.inverse('it has passed ' + Math.floor(result) + ' days since ' + data)) 
+    console.log(chalk.green.inverse('It has passed ' + Math.floor(result) + ' days since ' + data)) 
 }
 
 module.exports = calculateDays
